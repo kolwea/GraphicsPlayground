@@ -2,21 +2,40 @@ package Views
 
 import GraphicsPlayground.Views.FlowField
 import GraphicsPlayground.Views.GraphicsView
+import javafx.scene.layout.Pane
 
-class ViewController(){
-
-    val views = arrayOf("FlowField", "NoiseField", "Rasterizer Engine", "Ray Tracing Engine", "TigerHacks View")
-
-    lateinit var currentView : GraphicsView
-
-    init{
-
+class ViewController() {
+    //Active List of all views
+    val views: List<GraphicsView> = List(2) {
+        when (it) {
+            0 -> FlowField()
+            1 -> MusicVisualizer()
+            else -> FlowField()
+        }
     }
 
-    fun goto(viewName : String):GraphicsView?{
-        when(viewName){
-            "FlowField" -> return FlowField()
-            else -> return null
+    var currentView: GraphicsView = views[0]
+
+    fun goto(viewName: String): Pane? {
+        var target = currentView
+        for (view in views) {
+            if(view.label == viewName)
+                target = view
+        }
+
+        if (target != currentView) {
+            currentView.onClose()
+            currentView = target
+            currentView.onOpen()
+            return currentView.root
+        } else
+            return null
+    }
+
+
+    fun getViewLabels(): List<String> {
+        return List(views.size) {
+            views[it].label
         }
     }
 }

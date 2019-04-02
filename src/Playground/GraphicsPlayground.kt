@@ -18,24 +18,34 @@ class GraphicsPlayground : Application() {
     val root = BorderPane()
     val scene = Scene(root, width, height, true, SceneAntialiasing.DISABLED)
     val viewController = ViewController()
+    lateinit var stage : Stage
 
     override fun start(primaryStage: Stage?) {
         scene.stylesheets.addAll(stylesheet)
         root.styleClass.add("main")
         setupButtons()
-        primaryStage?.isFullScreen = fullscreen
-        primaryStage?.scene = scene
-        primaryStage?.show()
+        stage = primaryStage!!
+        stage.isFullScreen = fullscreen
+        stage.scene = scene
+        stage.show()
     }
 
-    fun setupButtons(){
+    private fun setupButtons(){
         val buttonBar = HBox()
         buttonBar.spacing = 10.0
         buttonBar.alignment = Pos.BASELINE_CENTER
         root.bottom = buttonBar
-        for (view in viewController.views){
+        for (view in viewController.getViewLabels()){
             val currButton = ViewButton(view)
             buttonBar.children.add(currButton)
+        }
+    }
+
+    private fun goto(target : String){
+        val targetView = viewController.goto(target)
+        if (targetView!= null){
+            stage.scene = Scene(targetView)
+            stage.show()
         }
     }
 
@@ -44,12 +54,8 @@ class GraphicsPlayground : Application() {
             this.text = text
             this.styleClass.add("main-button")
             this.setOnAction {
-                println("Pressed Me!")
+                goto(this.text)
             }
-        }
-
-        fun goto(){
-
         }
     }
 

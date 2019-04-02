@@ -1,0 +1,17 @@
+.main{
+    -fx-background-color: aliceblue;
+}
+
+.main-button{
+        -fx-background-color: lightblue;
+}
+
+.main-button:hover{
+        -fx-background-color: blue;
+}
+
+.flowField{
+    -fx-background-color: red;
+    -fx-border-width: 5.0;
+    -fx-border-color: grey;
+}

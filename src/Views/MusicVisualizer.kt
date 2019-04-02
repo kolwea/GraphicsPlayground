@@ -15,6 +15,8 @@ import net.beadsproject.beads.ugens.Gain
 import net.beadsproject.beads.ugens.SamplePlayer
 
 class MusicVisualizer:GraphicsView {
+
+
     override val label: String = "Music Visualizer"
     override var root: Pane = Pane()
 
@@ -24,6 +26,10 @@ class MusicVisualizer:GraphicsView {
 
     override fun onClose() {
 
+    }
+
+    override fun willOpen() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

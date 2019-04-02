@@ -6,6 +6,7 @@ interface GraphicsView {
     val label : String
     var root:Pane
 
+    fun willOpen()
     fun onOpen()
     fun onClose()
 }

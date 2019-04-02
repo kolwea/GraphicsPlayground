@@ -16,8 +16,8 @@ import javax.lang.model.element.NestingKind
 class GraphicsPlayground : Application() {
 
     val root = BorderPane()
-    val scene = Scene(root, width, height, true, SceneAntialiasing.DISABLED)
-    val viewController = ViewController()
+    var scene = Scene(root, width, height, true, SceneAntialiasing.DISABLED)
+    var viewController = ViewController()
     lateinit var stage : Stage
 
     override fun start(primaryStage: Stage?) {
@@ -44,9 +44,12 @@ class GraphicsPlayground : Application() {
     private fun goto(target : String){
         val targetView = viewController.goto(target)
         if (targetView!= null){
-            stage.scene = Scene(targetView)
-            stage.show()
+            root.center = targetView
         }
+    }
+
+    private fun setupFunctionality(){
+
     }
 
     inner class ViewButton(text: String?): Button(text) {

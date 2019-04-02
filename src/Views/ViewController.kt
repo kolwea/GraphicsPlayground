@@ -14,22 +14,28 @@ class ViewController() {
         }
     }
 
-    var currentView: GraphicsView = views[0]
+    var currentView: GraphicsView = initView()
 
     fun goto(viewName: String): Pane? {
         var target = currentView
+        var changed = false
         for (view in views) {
-            if(view.label == viewName)
-                target = view
+            if (view.label == viewName) {
+                if (view != currentView) {
+                    target = view
+                    changed = true
+                }
+            }
         }
 
-        if (target != currentView) {
+        if (changed == true) {
             currentView.onClose()
             currentView = target
             currentView.onOpen()
             return currentView.root
-        } else
-            return null
+        }
+
+        return null
     }
 
 
@@ -38,4 +44,20 @@ class ViewController() {
             views[it].label
         }
     }
+
+    inner class initView : GraphicsView {
+        override fun willOpen() {
+        }
+
+        override val label: String = "Nunca"
+        override var root: Pane = Pane()
+
+        override fun onOpen() {
+        }
+
+        override fun onClose() {
+        }
+
+    }
+
 }

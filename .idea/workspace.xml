@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a5146e-0774-4e31-bab1-201902e248b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/Copy of Liberty City House (Updatedd).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/Kodak Black - Calling My Spirit [Official Music Video].mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphicsPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsPlayground.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/FlowField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/FlowField.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/GraphicsView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/GraphicsView.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/MusicVisualizer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/MusicVisualizer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/ViewController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/ViewController.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Views/MusicVisualizer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="222">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#15#359#0" expanded="true" />
               </folding>
@@ -44,14 +35,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/beads/library/beads.jar!/net/beadsproject/beads/analysis/FeatureManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-375">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/Downloads/beads/library/beads.jar!/net/beadsproject/beads/analysis/featureextractors/FFT.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1580">
-              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="-10">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding>
                 <element signature="e#451#452#0" expanded="true" />
                 <element signature="e#497#498#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson03_FMSynthesis.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson04_SamplePlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-138" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson06_Trigger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-933">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding>
+                <element signature="e#2477#2611#0" expanded="true" />
+                <element signature="e#2610#2611#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson07_Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -151,7 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554237693476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554243000000" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -427,9 +461,6 @@
     <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson08_Granulation.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson07_Music.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson01_AudioContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -437,31 +468,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson02_EnvelopeAndWavePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson03_FMSynthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson04_SamplePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson05_Clock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29" />
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson02_EnvelopeAndWavePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/beads/library/beads.jar!/net/beadsproject/beads/analysis/featureextractors/FFT.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/beads/library/beads.jar!/net/beadsproject/beads/analysis/FeatureManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson03_FMSynthesis.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson04_SamplePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson06_Trigger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="-933">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
             <element signature="e#2477#2611#0" expanded="true" />
@@ -470,21 +517,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/beads/library/beads.jar!/net/beadsproject/beads/analysis/featureextractors/FFT.class">
+    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson07_Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1580">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/MusicVisualizer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="222">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#15#359#0" expanded="true" />
           </folding>

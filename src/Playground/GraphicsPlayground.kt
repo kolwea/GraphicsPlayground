@@ -45,6 +45,7 @@ class GraphicsPlayground : Application() {
         val targetView = viewController.goto(target)
         if (targetView!= null){
             root.center = targetView
+            viewController.currentView.onOpen()
         }
     }
 

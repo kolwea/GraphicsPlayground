@@ -31,10 +31,9 @@ class ViewController() {
         if (changed == true) {
             currentView.onClose()
             currentView = target
-            currentView.onOpen()
+            currentView.willOpen()
             return currentView.root
         }
-
         return null
     }
 

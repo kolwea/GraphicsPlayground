@@ -10,6 +10,8 @@ class FlowField : GraphicsView {
     override val label: String = "FlowField"
     override var root: Pane = Pane()
 
+    val troubleShooting = true
+
     val hDiv = 10
     val vDiv = 15
 
@@ -23,6 +25,8 @@ class FlowField : GraphicsView {
 
     override fun onOpen() {
         setup()
+        if (troubleShooting)
+            troubleShooting()
     }
 
     override fun onClose() {
@@ -30,6 +34,10 @@ class FlowField : GraphicsView {
     }
 
     private fun setup() {
+
+    }
+
+    private fun troubleShooting(){
         val width = Toolkit.getDefaultToolkit().screenSize.width.toDouble()
         val height = Toolkit.getDefaultToolkit().screenSize.height.toDouble()
 
@@ -39,16 +47,23 @@ class FlowField : GraphicsView {
         for(i in 0 until hDiv){
             val pad = (i * hSpacing) - hSpacing/2
             val bar = Line(0.0,pad,width,pad)
-            bar.strokeWidth = 10.0
+            bar.strokeWidth = 5.0
             root.children.add(bar)
         }
 
         for(i in 0 until vDiv){
             val pad = (i * vSpacing) - vSpacing/2
             val bar = Line(pad,0.0,pad,height)
-            bar.strokeWidth = 10.0
+            bar.strokeWidth = 5.0
             root.children.add(bar)
         }
     }
 
+    private fun generateFlowGrid(verticalDivisions : Int, horizontaldivisions :Int){
+
+    }
+
+    private fun setupParticles(){
+
+    }
 }

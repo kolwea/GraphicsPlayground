@@ -25,7 +25,7 @@ class ViewController() {
             }
         }
 
-        if (changed == true) {
+        if (changed) {
             currentView.onClose()
             currentView = target
             currentView.willOpen()

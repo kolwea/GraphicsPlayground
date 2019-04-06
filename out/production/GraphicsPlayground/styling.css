@@ -21,5 +21,10 @@
 }
 
 .MusicViz{
-    -fx-background-color: green;
+    -fx-background-color: white;
+}
+
+.MediaView{
+    -fx-background-color: brown;
+
 }

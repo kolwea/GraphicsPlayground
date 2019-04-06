@@ -1,6 +1,8 @@
 package Views
 
 import GraphicsPlayground.Views.GraphicsView
+import Views.MusicVisualizers.CenterCircle
+import javafx.scene.layout.AnchorPane
 import javafx.scene.layout.Pane
 import javafx.scene.layout.StackPane
 import javafx.scene.media.Media
@@ -17,7 +19,9 @@ import net.beadsproject.beads.data.Sample
 import net.beadsproject.beads.data.SampleManager
 import net.beadsproject.beads.ugens.Gain
 import net.beadsproject.beads.ugens.SamplePlayer
+import sun.plugin.javascript.navig.Anchor
 import java.io.File
+import java.time.Duration
 import java.util.*
 
 class MusicViz : GraphicsView {
@@ -30,8 +34,15 @@ class MusicViz : GraphicsView {
     lateinit var player: MediaPlayer
     lateinit var mediaView: MediaView
 
+    var visualizer = CenterCircle()
+
+    val spectrumBands = 10
+    val updateinterval = 0.01
+
     init {
         root.styleClass.add("MusicViz")
+        mediaView = MediaView()
+        root.children.add(mediaView)
     }
 
     override fun onOpen() {
@@ -43,15 +54,50 @@ class MusicViz : GraphicsView {
     }
 
     override fun willOpen() {
-
+        openMedia()
+        setupPlayer()
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    fun setup() {
-        media = Media("Views/Copy of Liberty City House (Updatedd).wav")
-        player = MediaPlayer(media)
-        mediaView = MediaView(player)
-        root.children.add(mediaView)
+    fun openMedia() {
+        val file =
+            File("/Users/kolbe/IdeaProjects/GraphicsPlayground/src/Views/Copy of Liberty City House (Updatedd).wav")
+        media = Media((file.toURI().toString()))
+        setupPlayer()
     }
+
+    private fun setupPlayer() {
+        player = MediaPlayer(media)
+        mediaView.mediaPlayer = player
+        mediaView.styleClass.add("MediaView")
+
+        player.setOnReady { onReady() }
+        player.setOnEndOfMedia { onEnd() }
+        player.audioSpectrumInterval = updateinterval
+        player.audioSpectrumNumBands = spectrumBands
+        player.setAudioSpectrumListener { timestamp, duration, magnitudes, phases ->
+            visualizer.update(timestamp, duration, magnitudes, phases)
+        }
+        player.isAutoPlay = true
+    }
+
+    private fun onReady() {
+        visualizer.start(spectrumBands,root)
+    }
+
+    private fun onEnd() {
+
+    }
+
+
+//    private fun handleReady(){
+//        val duration = mediaPlayer.getTotalDuration()
+//        lengthText.setText(duration.toString())
+//        val ct = mediaPlayer.getCurrentTime()
+//        currentText.setText(ct.toString())
+//        currentVisualizer.start(numBands, vizPane)
+//        timeSlider.setMin(0.0)
+//        timeSlider.setMax(duration.toMillis())
+//    }
 
 }

@@ -10,18 +10,16 @@
         -fx-background-color: blue;
 }
 
-.flowField{
+.FlowFieldViz{
     -fx-background-color: red;
     -fx-border-width: 5.0;
     -fx-border-color: grey;
 }
 
-.barcode{
+.BarcodeViz{
     -fx-background-color: turquoise;
 }
 
-.boundingBox{
-   -fx-background-color: grey;
-   -fx-border-width: 2.0;
-   -fx-border-color: darkgrey;
+.MusicViz{
+    -fx-background-color: green;
 }

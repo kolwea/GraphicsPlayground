@@ -8,6 +8,7 @@ import javafx.scene.SceneAntialiasing
 import javafx.scene.control.Button
 import javafx.scene.layout.BorderPane
 import javafx.scene.layout.HBox
+import javafx.scene.layout.Pane
 import javafx.scene.shape.Rectangle
 import javafx.stage.Stage
 import sun.tools.jstat.Alignment
@@ -18,6 +19,7 @@ class GraphicsPlayground : Application() {
     val root = BorderPane()
     var scene = Scene(root, width, height, true, SceneAntialiasing.DISABLED)
     var viewController = ViewController()
+    lateinit var buttonBar: HBox
     lateinit var stage : Stage
 
     override fun start(primaryStage: Stage?) {
@@ -31,7 +33,7 @@ class GraphicsPlayground : Application() {
     }
 
     private fun setupButtons(){
-        val buttonBar = HBox()
+        buttonBar = HBox()
         buttonBar.spacing = 10.0
         buttonBar.alignment = Pos.BASELINE_CENTER
         root.bottom = buttonBar
@@ -47,6 +49,7 @@ class GraphicsPlayground : Application() {
             root.center = targetView
             viewController.currentView.onOpen()
         }
+        buttonBar.toFront()
     }
 
     private fun setupFunctionality(){

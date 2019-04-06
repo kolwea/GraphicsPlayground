@@ -6,8 +6,8 @@ import javafx.scene.shape.Line
 import java.awt.Toolkit
 import javax.tools.Tool
 
-class FlowField : GraphicsView {
-    override val label: String = "FlowField"
+class FlowFieldViz : GraphicsView {
+    override val label: String = "FlowFieldViz"
     override var root: Pane = Pane()
 
     val troubleShooting = true
@@ -30,7 +30,7 @@ class FlowField : GraphicsView {
     }
 
     override fun onClose() {
-
+        root.children.clear()
     }
 
     private fun setup() {

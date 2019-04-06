@@ -14,18 +14,18 @@ import net.beadsproject.beads.data.SampleManager
 import net.beadsproject.beads.ugens.Gain
 import net.beadsproject.beads.ugens.SamplePlayer
 
-class MusicVisualizer:GraphicsView {
+class MusicViz:GraphicsView {
 
 
     override val label: String = "Music Visualizer"
     override var root: Pane = Pane()
 
     override fun onOpen() {
-        setup()
+
     }
 
     override fun onClose() {
-
+        
     }
 
     override fun willOpen() {
@@ -33,31 +33,31 @@ class MusicVisualizer:GraphicsView {
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    lateinit var player : SamplePlayer
-    lateinit var sample : Sample
-    var context = AudioContext()
-
-    lateinit var analyzer: Analyzer
-    var fft: FFT = FFT()
-    val beads = BeadArray()
-
-
-
-    private fun setup(){
-
-        sample = Sample("/Users/kolbe/IdeaProjects/GraphicsPlayground/src/Views/Copy of Liberty City House (Updatedd).wav")
-        player = SamplePlayer(context,sample)
-        val g = Gain(context, 2, 0.2f)
-        g.addInput(player)
-        context.out.addInput(g)
-        context.start()
-
-        println("Number Frames: ${sample.numFrames}")
-        println("Number Channels: ${sample.numChannels}")
-
-    }
-
-    inner class analSettings:FFT(){
+//    lateinit var player : SamplePlayer
+////    lateinit var sample : Sample
+////    var context = AudioContext()
+////
+////    lateinit var analyzer: Analyzer
+////    var fft: FFT = FFT()
+////    val beads = BeadArray()
+////
+////
+////
+////    private fun setup(){
+////
+////        sample = Sample("/Users/kolbe/IdeaProjects/GraphicsPlayground/src/Views/Copy of Liberty City House (Updatedd).wav")
+////        player = SamplePlayer(context,sample)
+////        val g = Gain(context, 2, 0.2f)
+////        g.addInput(player)
+////        context.out.addInput(g)
+////        context.start()
+////
+////        println("Number Frames: ${sample.numFrames}")
+////        println("Number Channels: ${sample.numChannels}")
+////
+////    }
+////
+////    inner class analSettings:FFT(){
 
     }
 }

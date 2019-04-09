@@ -12,6 +12,7 @@ import javafx.scene.layout.Pane
 import javafx.scene.shape.Rectangle
 import javafx.stage.Stage
 import sun.tools.jstat.Alignment
+import java.awt.Toolkit
 import javax.lang.model.element.NestingKind
 
 class GraphicsPlayground : Application() {
@@ -24,6 +25,8 @@ class GraphicsPlayground : Application() {
 
     override fun start(primaryStage: Stage?) {
         scene.stylesheets.addAll(stylesheet)
+        val window = Toolkit.getDefaultToolkit().screenSize
+        root.setMaxSize(window.getWidth(),window.getHeight())
         root.styleClass.add("main")
         setupButtons()
         stage = primaryStage!!

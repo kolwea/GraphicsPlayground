@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="67a5146e-0774-4e31-bab1-201902e248b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" afterDir="false" />
@@ -24,32 +25,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/MusicViz.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/BarCodeViz.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="88" column="103" selection-start-line="88" selection-start-column="103" selection-end-line="88" selection-end-column="103" />
+            <state relative-caret-position="150">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding>
-                <element signature="e#15#192#0" expanded="true" />
-                <element signature="e#517#605#0" />
-                <element signature="n#!!block;n#willOpen#0;n#!!block;n#BarCodeViz#0" />
-                <element signature="n#!!block;n#onOpen#0;n#!!block;n#BarCodeViz#0" />
-                <element signature="n#!!block;n#onClose#0;n#!!block;n#BarCodeViz#0" />
-                <element signature="n#!!block;n#setupView#0;n#!!block;n#BarCodeViz#0" />
-                <element signature="n#!!block;n#getBarWidths#0;n#!!block;n#setupView#0;n#!!block;n#BarCodeViz#0" />
-                <element signature="e#2216#2427#2" />
-                <element signature="e#2469#2494#2" />
-                <element signature="n#!!block;n#Bar#0;n#!!block;n#BarCodeViz#0" />
+                <element signature="e#15#224#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/FlowFieldViz.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/BingeViz.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+              <folding>
+                <element signature="e#691#762#0" />
+                <element signature="n#!!block;n#onOpen#0;n#!!block;n#BingeViz#0" />
+                <element signature="n#!!block;n#onClose#0;n#!!block;n#BingeViz#0" />
+                <element signature="n#!!block;n#setupTimeline#0;n#!!block;n#BingeViz#0" />
+                <element signature="e#1582#1759#1" />
+                <element signature="n#!!block;n#BubbleGen#0;n#!!block;n#BingeViz#0" />
+
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+              <folding>
+                <element signature="n#!!block;n#setupButtons#0;n#!!block;n#GraphicsPlayground#0" />
+                <element signature="n#!!block;n#ViewButton#0;n#!!block;n#GraphicsPlayground#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styling.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="615">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+
             </state>
           </provider>
         </entry>
@@ -95,14 +137,16 @@
         <option value="$PROJECT_DIR$/src/Views/Music/MusicViz.kt" />
         <option value="/Volumes/Kolbe's Drive/TOTHEFUTURE/NetBeansProjects/AudioViz/src/audioviz/Kswkw4CoolVisualizer.java" />
         <option value="$PROJECT_DIR$/src/Views/MusicVisualizers/Visualizer.kt" />
+        <option value="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" />
         <option value="$PROJECT_DIR$/src/Views/GraphicsView.kt" />
+        <option value="$PROJECT_DIR$/src/Views/ViewController.kt" />
+        <option value="$PROJECT_DIR$/src/Views/BarCodeViz.kt" />
         <option value="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" />
         <option value="$PROJECT_DIR$/src/Views/MusicViz.kt" />
-        <option value="$PROJECT_DIR$/src/Views/ViewController.kt" />
         <option value="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" />
-        <option value="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" />
+        <option value="$PROJECT_DIR$/src/Views/BingeViz.kt" />
         <option value="$PROJECT_DIR$/src/styling.css" />
-        <option value="$PROJECT_DIR$/src/Views/BarCodeViz.kt" />
+
       </list>
     </option>
   </component>
@@ -159,16 +203,16 @@
               <item name="GraphicsPlayground" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="MusicVisualizers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554824410287" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554829256395" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -249,7 +293,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,6 +544,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/ParticleSystem.kt">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
@@ -524,9 +569,17 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Parent.java">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="453" selection-start-line="453" selection-end-line="453" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/scene/paint/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="247" column="24" selection-start-line="247" selection-start-column="24" selection-end-line="247" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -542,10 +595,18 @@
       </provider>
     </entry>
     <entry file="file:///Volumes/Kolbe's Drive/TOTHEFUTURE/NetBeansProjects/AudioViz/src/audioviz/Kswkw4CoolVisualizer.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/scene/paint/Color.java">
+    <entry file="file://$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="247" column="24" selection-start-line="247" selection-start-column="24" selection-end-line="247" selection-end-column="24" />
+        <state relative-caret-position="288">
+          <caret line="72" column="86" selection-start-line="72" selection-start-column="86" selection-end-line="72" selection-end-column="86" />
+          <folding>
+            <element signature="e#32#190#0" expanded="true" />
+            <element signature="e#404#420#0" />
+            <element signature="n#!!block;n#end#0;n#!!block;n#CenterCircle#0" />
+            <element signature="n#!!block;n#map#0;n#!!block;n#CenterCircle#0" />
+            <element signature="n#!!block;n#recursiveAdd#0;n#!!block;n#CenterCircle#0" />
+            <element signature="n#!!block;n#moveCircle#0;n#!!block;n#CenterCircle#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,22 +616,25 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#32#111#0" expanded="true" />
+
           </folding>
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/Views/ViewController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        <state relative-caret-position="540">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+
           <folding>
             <element signature="n#!!block;n#goto#0;n#!!block;n#ViewController#0" />
             <element signature="n#!!block;n#getViewLabels#0;n#!!block;n#ViewController#0" />
-            <element signature="n#!!block;n#initView#0;n#!!block;n#ViewController#0" />
           </folding>
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -586,62 +650,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/MusicViz.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state relative-caret-position="315">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt">
+    <entry file="file://$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="225">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding>
-            <element signature="e#32#190#0" expanded="true" />
-            <element signature="n#!!block;n#end#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#map#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#recursiveAdd#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#moveCircle#0;n#!!block;n#CenterCircle#0" />
+            <element signature="n#!!block;n#setupButtons#0;n#!!block;n#GraphicsPlayground#0" />
+            <element signature="n#!!block;n#ViewButton#0;n#!!block;n#GraphicsPlayground#0" />
+
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/GraphicsView.kt">
+
+    <entry file="file://$PROJECT_DIR$/src/Views/BarCodeViz.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#15#224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/FlowFieldViz.kt">
+    <entry file="file://$PROJECT_DIR$/src/Views/BingeViz.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="609">
+          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+          <folding>
+            <element signature="e#691#762#0" />
+            <element signature="n#!!block;n#onOpen#0;n#!!block;n#BingeViz#0" />
+            <element signature="n#!!block;n#onClose#0;n#!!block;n#BingeViz#0" />
+            <element signature="n#!!block;n#setupTimeline#0;n#!!block;n#BingeViz#0" />
+            <element signature="e#1582#1759#1" />
+            <element signature="n#!!block;n#BubbleGen#0;n#!!block;n#BingeViz#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/BarCodeViz.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="88" column="103" selection-start-line="88" selection-start-column="103" selection-end-line="88" selection-end-column="103" />
-          <folding>
-            <element signature="e#15#192#0" expanded="true" />
-            <element signature="e#517#605#0" />
-            <element signature="n#!!block;n#willOpen#0;n#!!block;n#BarCodeViz#0" />
-            <element signature="n#!!block;n#onOpen#0;n#!!block;n#BarCodeViz#0" />
-            <element signature="n#!!block;n#onClose#0;n#!!block;n#BarCodeViz#0" />
-            <element signature="n#!!block;n#setupView#0;n#!!block;n#BarCodeViz#0" />
-            <element signature="n#!!block;n#getBarWidths#0;n#!!block;n#setupView#0;n#!!block;n#BarCodeViz#0" />
-            <element signature="e#2216#2427#2" />
-            <element signature="e#2469#2494#2" />
-            <element signature="n#!!block;n#Bar#0;n#!!block;n#BarCodeViz#0" />
-          </folding>
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>

@@ -16,10 +16,6 @@
     -fx-border-color: grey;
 }
 
-.BarcodeViz{
-    -fx-background-color: turquoise;
-}
-
 .MusicViz{
     -fx-background-color: white;
 }
@@ -34,10 +30,18 @@
 
 }
 
+.BingeViz{
+    -fx-background-color: royalblue;
+}
+
+.BingeBubble{
+  
+}
+
 .BarCodeViz{
     -fx-background-color: lightgrey;
 }
 
 .BarBox{
     -fx-background-color: red;
-}
+

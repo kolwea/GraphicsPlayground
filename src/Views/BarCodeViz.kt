@@ -9,7 +9,8 @@ import kotlin.random.Random
 
 class BarCodeViz : GraphicsView {
     override val styleClass: String = "BarCodeViz"
-    override val label: String = "BarCode"
+    override val label: String = "Barcode"
+
     override var root: Pane = StackPane()
 
     private val barPane = AnchorPane()

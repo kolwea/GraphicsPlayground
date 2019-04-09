@@ -10,8 +10,26 @@
         -fx-background-color: blue;
 }
 
-.flowField{
+.FlowFieldViz{
     -fx-background-color: red;
     -fx-border-width: 5.0;
     -fx-border-color: grey;
+}
+
+.BarcodeViz{
+    -fx-background-color: turquoise;
+}
+
+.MusicViz{
+    -fx-background-color: white;
+}
+
+.CenterCircle{
+    -fx-border-width: 2.0;
+    -fx-background-color: lightyellow;
+}
+
+.MediaView{
+    -fx-background-color: brown;
+
 }

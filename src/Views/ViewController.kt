@@ -1,22 +1,58 @@
 package Views
 
-import GraphicsPlayground.Views.FlowField
+import GraphicsPlayground.Views.FlowFieldViz
 import GraphicsPlayground.Views.GraphicsView
+import javafx.scene.layout.Pane
 
-class ViewController(){
+class ViewController() {
+    //Active List of all views
+    val views = arrayOf(
+        FlowFieldViz(),
+        MusicViz(),
+        BarCodeViz())
 
-    val views = arrayOf("FlowField", "NoiseField", "Rasterizer Engine", "Ray Tracing Engine", "TigerHacks View")
+    var currentView: GraphicsView = initView()
 
-    lateinit var currentView : GraphicsView
+    fun goto(viewName: String): Pane? {
+        var target = currentView
+        var changed = false
+        for (view in views) {
+            if (view.label == viewName) {
+                if (view != currentView) {
+                    target = view
+                    changed = true
+                }
+            }
+        }
 
-    init{
-
+        if (changed) {
+            currentView.onClose()
+            currentView = target
+            currentView.willOpen()
+            return currentView.root
+        }
+        return null
     }
 
-    fun goto(viewName : String):GraphicsView?{
-        when(viewName){
-            "FlowField" -> return FlowField()
-            else -> return null
+    fun getViewLabels(): List<String> {
+        return List(views.size) {
+            views[it].label
         }
     }
+
+    inner class initView : GraphicsView {
+        override fun willOpen() {
+        }
+
+        override val label: String = "Nunca"
+        override var root: Pane = Pane()
+
+        override fun onOpen() {
+        }
+
+        override fun onClose() {
+        }
+
+    }
+
 }

@@ -1,16 +1,16 @@
 package Views
 
 import GraphicsPlayground.Views.FlowFieldViz
-import GraphicsPlayground.Views.GraphicsView
 import javafx.scene.layout.Pane
 
 class ViewController() {
     //Active List of all views
-    val views = arrayOf(
+    private val views = arrayOf(
         FlowFieldViz(),
         MusicViz(),
         BarCodeViz(),
-        BingeViz())
+        BingeViz()
+    )
 
     var currentView: GraphicsView = initView()
 
@@ -25,7 +25,6 @@ class ViewController() {
                 }
             }
         }
-
         if (changed) {
             currentView.onClose()
             currentView = target
@@ -42,9 +41,9 @@ class ViewController() {
     }
 
     inner class initView : GraphicsView {
-        override val styleClass: String = "initviz"
 
         override fun willOpen() {
+
         }
 
         override val styleClass: String = "InitView"

@@ -1,16 +1,14 @@
 package GraphicsPlayground.Views
 
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils
+import Views.GraphicsView
 import javafx.scene.layout.Pane
 import javafx.scene.shape.Line
 import java.awt.Toolkit
-import javax.tools.Tool
 
 class FlowFieldViz : GraphicsView {
     override val styleClass: String = "FlowField"
     override val label: String = "FlowFieldViz"
     override var root: Pane = Pane()
-    override val styleClass = "FlowField"
 
     val troubleShooting = true
 

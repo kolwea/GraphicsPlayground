@@ -55,13 +55,12 @@ class CenterCircle : Visualizer {
                 fill = Color.hsb(255.0 / numBands!! * it, 1.0, 1.0, 0.03)
                 strokeWidth = 2.0
                 stroke = Color.BLACK
-//                centerX = Math.random() * Toolkit.getDefaultToolkit().screenSize.width
-//                centerY = Math.random() * Toolkit.getDefaultToolkit().screenSize.height
+
                 minSize = circleRadiusSpacing
 
                 val window = Toolkit.getDefaultToolkit().screenSize
-                centerX =  window.width.toDouble()/ numBands!! * it
-                centerY = window.height.toDouble()/numBands!! * it
+                centerX = window.width.toDouble() / numBands!! * it
+                centerY = window.height.toDouble() / numBands!! * it
             }
         }
 
@@ -82,17 +81,17 @@ class CenterCircle : Visualizer {
         }
     }
 
-    private fun moveCircle(circ: AudioCircle) {
-        val screenSize = Toolkit.getDefaultToolkit().screenSize
-        if ((circ.radius + circ.centerX >= screenSize.width) || (circ.centerX - circ.radius <= 0))
-            circ.dirX *= -1.0
-        if ((circ.radius + circ.centerY >= screenSize.height) || (circ.centerY - circ.radius <= 0))
-            circ.dirY *= -1.0
-
-        circ.centerX += circ.dirX
-        circ.centerY += circ.dirY
-
-    }
+//    private fun moveCircle(circ: AudioCircle) {
+//        val screenSize = Toolkit.getDefaultToolkit().screenSize
+//        if ((circ.radius + circ.centerX >= screenSize.width) || (circ.centerX - circ.radius <= 0))
+//            circ.dirX *= -1.0
+//        if ((circ.radius + circ.centerY >= screenSize.height) || (circ.centerY - circ.radius <= 0))
+//            circ.dirY *= -1.0
+//
+//        circ.centerX += circ.dirX
+//        circ.centerY += circ.dirY
+//
+//    }
 
 
     inner class AudioCircle : Circle() {
@@ -101,8 +100,8 @@ class CenterCircle : Visualizer {
         var maxSize = minSize + 80.0 // The largest difference in magnitude
         private val changeThreshold = 10.0
 
-        var dirX = Math.random() * 1.0 + 1.0
-        var dirY = Math.random() * 1.0 + 1.0
+        var originX = 0.0
+        var originY = 0.0
 
         init {
             radius = minSize

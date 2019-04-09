@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a5146e-0774-4e31-bab1-201902e248b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/BarCodeViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/BarCodeViz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/BingeViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/BingeViz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/GraphicsView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/GraphicsView.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/MusicViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/MusicViz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/ViewController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/ViewController.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,34 +17,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/MusicViz.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-265">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-232">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#1427#1474#0" />
-                <element signature="n#!!block;n#onOpen#0;n#!!block;n#MusicViz#0" />
-                <element signature="n#!!block;n#onClose#0;n#!!block;n#MusicViz#0" />
-                <element signature="n#!!block;n#willOpen#0;n#!!block;n#MusicViz#0" />
-                <element signature="n#!!block;n#openMedia#0;n#!!block;n#MusicViz#0" />
+                <element signature="n#!!block;n#onReady#0;n#!!block;n#MusicViz#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
+            <state relative-caret-position="-148">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#32#190#0" expanded="true" />
                 <element signature="n#!!block;n#start#0;n#!!block;n#CenterCircle#0" />
                 <element signature="n#!!block;n#spectrumDataUpdate#0;n#!!block;n#CenterCircle#0" />
                 <element signature="n#!!block;n#end#0;n#!!block;n#CenterCircle#0" />
                 <element signature="n#!!block;n#map#0;n#!!block;n#CenterCircle#0" />
-                <element signature="n#!!block;n#moveCircle#0;n#!!block;n#CenterCircle#0" />
                 <element signature="n#!!block;n#update#0;n#!!block;n#AudioCircle#0;n#!!block;n#CenterCircle#0" />
               </folding>
             </state>
@@ -137,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" />
         <option value="$PROJECT_DIR$/src/Views/ViewController.kt" />
         <option value="$PROJECT_DIR$/src/Views/GraphicsView.kt" />
-        <option value="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" />
         <option value="$PROJECT_DIR$/src/Views/MusicViz.kt" />
+        <option value="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" />
       </list>
     </option>
   </component>
@@ -197,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554842541140" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554843024818" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -652,32 +642,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/MusicViz.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#1427#1474#0" />
+            <element signature="n#!!block;n#onReady#0;n#!!block;n#MusicViz#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
+        <state relative-caret-position="-148">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#32#190#0" expanded="true" />
             <element signature="n#!!block;n#start#0;n#!!block;n#CenterCircle#0" />
             <element signature="n#!!block;n#spectrumDataUpdate#0;n#!!block;n#CenterCircle#0" />
             <element signature="n#!!block;n#end#0;n#!!block;n#CenterCircle#0" />
             <element signature="n#!!block;n#map#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#moveCircle#0;n#!!block;n#CenterCircle#0" />
             <element signature="n#!!block;n#update#0;n#!!block;n#AudioCircle#0;n#!!block;n#CenterCircle#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/MusicViz.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#1427#1474#0" />
-            <element signature="n#!!block;n#onOpen#0;n#!!block;n#MusicViz#0" />
-            <element signature="n#!!block;n#onClose#0;n#!!block;n#MusicViz#0" />
-            <element signature="n#!!block;n#willOpen#0;n#!!block;n#MusicViz#0" />
-            <element signature="n#!!block;n#openMedia#0;n#!!block;n#MusicViz#0" />
           </folding>
         </state>
       </provider>

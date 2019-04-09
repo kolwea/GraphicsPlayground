@@ -28,11 +28,11 @@ class MusicViz : GraphicsView {
     }
 
     override fun onOpen() {
-        println(player.audioSpectrumThreshold)
+
     }
 
     override fun onClose() {
-
+        player.stop()
     }
 
     override fun willOpen() {

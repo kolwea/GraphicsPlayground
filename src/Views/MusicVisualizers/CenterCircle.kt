@@ -73,27 +73,6 @@ class CenterCircle : Visualizer {
         return outMin + (outMax - outMin) / (inMax - inMin) * (value - inMin)
     }
 
-    private fun recursiveAdd(num: Int): Int {
-        if (num >= 1) {
-            return num + recursiveAdd(num - 1)
-        } else {
-            return num
-        }
-    }
-
-//    private fun moveCircle(circ: AudioCircle) {
-//        val screenSize = Toolkit.getDefaultToolkit().screenSize
-//        if ((circ.radius + circ.centerX >= screenSize.width) || (circ.centerX - circ.radius <= 0))
-//            circ.dirX *= -1.0
-//        if ((circ.radius + circ.centerY >= screenSize.height) || (circ.centerY - circ.radius <= 0))
-//            circ.dirY *= -1.0
-//
-//        circ.centerX += circ.dirX
-//        circ.centerY += circ.dirY
-//
-//    }
-
-
     inner class AudioCircle : Circle() {
         private val changeValue = -0.5
         var minSize = 20.0

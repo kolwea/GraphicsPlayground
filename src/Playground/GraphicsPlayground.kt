@@ -41,12 +41,12 @@ class GraphicsPlayground : Application() {
         stage.isFullScreen = fullscreen
         stage.fullScreenProperty().addListener { observable, oldValue, newValue ->
             println("Old: $oldValue, New: $newValue")
-            val screen = Screen.getPrimary()
-            val bounds = screen.getVisualBounds()
-            primaryStage.x = bounds.getMinX()
-            primaryStage.y = bounds.getMinY()
-            primaryStage.width = bounds.getWidth()
-            primaryStage.height = bounds.getHeight()
+//            val screen = Screen.getPrimary()
+//            val bounds = screen.getVisualBounds()
+//            primaryStage.x = bounds.getMinX()
+//            primaryStage.y = bounds.getMinY()
+//            primaryStage.width = bounds.getWidth()
+//            primaryStage.height = bounds.getHeight()
         }
         stage.scene = scene
         stage.show()

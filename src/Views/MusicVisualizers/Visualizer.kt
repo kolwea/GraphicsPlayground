@@ -1,10 +1,11 @@
 package Views.MusicVisualizers
 
 import javafx.scene.layout.Pane
+import javafx.scene.media.AudioSpectrumListener
 
-interface Visualizer {
+interface Visualizer:AudioSpectrumListener {
     val name: String
-    fun start(numBands: Int?, vizPane: Pane)
+    var root : Pane
+    fun start(numBands: Int)
     fun end()
-    fun update(timestamp: Double, duration: Double, magnitudes: FloatArray, phases: FloatArray)
 }

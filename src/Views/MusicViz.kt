@@ -28,11 +28,11 @@ class MusicViz : GraphicsView {
 
 
     override val label: String = "Music Visualizer"
-    override var root: Pane = StackPane()
+    override var root: Pane = Pane()
 
     lateinit var media: Media
     lateinit var player: MediaPlayer
-    lateinit var mediaView: MediaView
+    private var mediaView: MediaView = MediaView()
 
     var visualizer = CenterCircle()
 
@@ -41,12 +41,9 @@ class MusicViz : GraphicsView {
 
     init {
         root.styleClass.add("MusicViz")
-        mediaView = MediaView()
-        root.children.add(mediaView)
     }
 
     override fun onOpen() {
-
     }
 
     override fun onClose() {
@@ -75,29 +72,17 @@ class MusicViz : GraphicsView {
         player.setOnEndOfMedia { onEnd() }
         player.audioSpectrumInterval = updateinterval
         player.audioSpectrumNumBands = spectrumBands
-        player.setAudioSpectrumListener { timestamp, duration, magnitudes, phases ->
-            visualizer.update(timestamp, duration, magnitudes, phases)
-        }
+        player.audioSpectrumListener = visualizer
         player.isAutoPlay = true
     }
 
     private fun onReady() {
-        visualizer.start(spectrumBands,root)
+        visualizer.start(spectrumBands)
+        root.children.clear()
+        root.children.add(visualizer.root)
     }
 
     private fun onEnd() {
 
     }
-
-
-//    private fun handleReady(){
-//        val duration = mediaPlayer.getTotalDuration()
-//        lengthText.setText(duration.toString())
-//        val ct = mediaPlayer.getCurrentTime()
-//        currentText.setText(ct.toString())
-//        currentVisualizer.start(numBands, vizPane)
-//        timeSlider.setMin(0.0)
-//        timeSlider.setMax(duration.toMillis())
-//    }
-
 }

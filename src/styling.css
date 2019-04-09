@@ -24,6 +24,11 @@
     -fx-background-color: white;
 }
 
+.CenterCircle{
+    -fx-border-width: 2.0;
+    -fx-background-color: lightyellow;
+}
+
 .MediaView{
     -fx-background-color: brown;
 

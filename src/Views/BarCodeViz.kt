@@ -92,7 +92,7 @@ class BarCodeViz : GraphicsView {
         for (i in 0 until bars.size) {
             val curr = bars[i]
             if (i - 1 > 0) {
-                curr.offset = bars[i-1].width*2
+                curr.offset = bars[i - 1].width * 2
                 curr.updateBar()
                 println("${curr.width}")
             }
@@ -101,13 +101,13 @@ class BarCodeViz : GraphicsView {
 
     }
 
-    inner class Bar() {
+    inner class Bar {
         var width: Double = 50.0
         var height: Double = 0.0
         var offset: Double = 0.0
         var shape = Rectangle()
 
-        fun updateBar(){
+        fun updateBar() {
             shape.width = width
             shape.x = offset
             shape.y = height

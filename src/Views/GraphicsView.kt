@@ -7,6 +7,7 @@ interface GraphicsView {
     var root:Pane
     val styleClass:String
 
+
     fun willOpen()
     fun onOpen()
     fun onClose()

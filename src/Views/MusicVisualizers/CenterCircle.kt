@@ -13,7 +13,6 @@ class CenterCircle : Visualizer {
     var numBands: Int? = null
     lateinit var circles: Array<AudioCircle>
     val circleGrowFactor = 50.0
-    var k = 0
 
     init {
         root.styleClass.add("CenterCircle")
@@ -39,19 +38,8 @@ class CenterCircle : Visualizer {
             circles[i].apply {
                 radius = this.originalRadius + (magnitudes!![i].toDouble() + 60.0)
 //                moveCircle(this)
-//                if (k == 300) {
-//                    println("Mag:")
-//                    magnitudes!!.iterator().forEach { println("$it ") }
-//                    println()
-//
-//                    println("Phases:")
-//                    phases.iterator().forEach { println("$it") }
-//                    k = 0
-//                    println()
-//                }
             }
         }
-        k+=1
     }
 
     override fun end() {

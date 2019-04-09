@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67a5146e-0774-4e31-bab1-201902e248b7" name="Default Changelist" comment="" />
+
+    <list default="true" id="67a5146e-0774-4e31-bab1-201902e248b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/BarCodeViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/BarCodeViz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/GraphicsView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/GraphicsView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/MusicViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/MusicViz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/ViewController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/ViewController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styling.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +67,7 @@
                 <element signature="n#!!block;n#setupTimeline#0;n#!!block;n#BingeViz#0" />
                 <element signature="e#1582#1759#1" />
                 <element signature="n#!!block;n#BubbleGen#0;n#!!block;n#BingeViz#0" />
+
               </folding>
             </state>
           </provider>
@@ -79,6 +91,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
+
             </state>
           </provider>
         </entry>
@@ -133,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" />
         <option value="$PROJECT_DIR$/src/Views/BingeViz.kt" />
         <option value="$PROJECT_DIR$/src/styling.css" />
+
       </list>
     </option>
   </component>
@@ -152,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -176,6 +191,12 @@
               <item name="GraphicsPlayground" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphicsPlayground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphicsPlayground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraphicsPlayground" type="b2602c69:ProjectViewProjectNode" />
@@ -523,6 +544,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/ParticleSystem.kt">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
@@ -547,6 +569,7 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Parent.java">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="453" selection-start-line="453" selection-end-line="453" />
@@ -593,31 +616,35 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#32#111#0" expanded="true" />
+
           </folding>
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/Views/ViewController.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
+
           <folding>
+            <element signature="n#!!block;n#goto#0;n#!!block;n#ViewController#0" />
             <element signature="n#!!block;n#getViewLabels#0;n#!!block;n#ViewController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/GraphicsView.kt">
+
+    <entry file="file://$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/FlowFieldViz.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="240">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#start#0;n#!!block;n#GraphicsPlayground#0" />
+            <element signature="n#!!block;n#setupButtons#0;n#!!block;n#GraphicsPlayground#0" />
+            <element signature="n#!!block;n#goto#0;n#!!block;n#GraphicsPlayground#0" />
+            <element signature="n#!!block;n#ViewButton#0;n#!!block;n#GraphicsPlayground#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -635,10 +662,12 @@
           <folding>
             <element signature="n#!!block;n#setupButtons#0;n#!!block;n#GraphicsPlayground#0" />
             <element signature="n#!!block;n#ViewButton#0;n#!!block;n#GraphicsPlayground#0" />
+
           </folding>
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/Views/BarCodeViz.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">

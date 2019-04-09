@@ -9,6 +9,7 @@ import javax.tools.Tool
 class FlowFieldViz : GraphicsView {
     override val label: String = "FlowFieldViz"
     override var root: Pane = Pane()
+    override val styleClass = "FlowField"
 
     val troubleShooting = true
 
@@ -16,7 +17,7 @@ class FlowFieldViz : GraphicsView {
     val vDiv = 15
 
     init {
-        root.styleClass.add("flowField")
+        root.styleClass.add(styleClass)
     }
 
     override fun willOpen() {

@@ -25,8 +25,7 @@ import java.time.Duration
 import java.util.*
 
 class MusicViz : GraphicsView {
-
-
+    override val styleClass: String = "MusicViz"
     override val label: String = "Music Visualizer"
     override var root: Pane = Pane()
 

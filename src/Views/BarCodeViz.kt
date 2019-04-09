@@ -1,20 +1,27 @@
 package Views
 
 import GraphicsPlayground.Views.GraphicsView
+import javafx.scene.layout.AnchorPane
 import javafx.scene.layout.Pane
 import javafx.scene.layout.StackPane
-import javafx.scene.paint.Color
 import javafx.scene.shape.Rectangle
 import kotlin.random.Random
 
 class BarCodeViz : GraphicsView {
-    override val label: String = "Barcode"
+    override val styleClass: String = "BarCodeViz"
+    override val label: String = "BarCode"
     override var root: Pane = StackPane()
 
-    val divisions = 10
-    val widthPercentage = 0.5
-    val min = 1
-    val max = 5
+    private val barPane = AnchorPane()
+    private val divisions = 20
+    private val widthPercentage = 0.5
+    private val min = 1
+    private val max = 5
+
+    init {
+        root.styleClass.add(styleClass)
+        barPane.styleClass.add("BarBox")
+    }
 
     override fun willOpen() {
         setupView(300.0, 300.0)
@@ -29,92 +36,87 @@ class BarCodeViz : GraphicsView {
     }
 
     private fun setupView(width: Double, height: Double) {
-        root.styleClass.add("barcode")
-        var box = Pane()
-
-        fun setupBoundingBox() {
-            box.styleClass.add("boundingBox")
-            box.setPrefSize(width, height)
-            root.children.add(box)
-        }
 
         fun getBarWidths(): Array<Double> {
             //Bars need to take up a certain portion of box, also need to be of variable widths
-
             //Create array of random portions
+
             val randomPortions = Array(divisions) {
                 Random.nextInt(min, max)
             }
+
             //Add them to find mix portion count
             var sum = 0.0
             randomPortions.iterator().forEach {
                 sum += it
-//                print("$it")
             }
 
             val widthAmount = width * widthPercentage
-
-            println()
-            println("Sum: $sum")
-            println("Width amount: $widthAmount")
 
             //Use portions to find variable width of "bar"
             val barWidths = Array(randomPortions.size) {
                 widthAmount * (randomPortions[it] / sum)
             }
 
-            println("Bar Widths: ")
-            print("[")
-            barWidths.iterator().forEach {
-                print("$it-")
-            }
-
-            print("]")
-            println()
-
-            var widthSum = 0.0
-            barWidths.iterator().forEach { widthSum += it }
-
-            println("BarWidth Percentage vs. Width Sums: ${width * widthPercentage} : $widthSum")
             return barWidths
         }
 
-        setupBoundingBox()
+        barPane.setMaxSize(width, height)
+
         val barWidths = getBarWidths()
 
         val bars = Array(divisions) {
-            Bar().apply {
-                this.width = barWidths[it];
-                this.height = height
+            var offset = 0.0
+            for (i in 0..it) {
+                if(i!= 0)
+                    offset += barWidths[i] * 2
             }
+            println("Offset: $offset")
+            Bar(
+                barWidths[it],
+                if(it==0 || it == divisions-1)height else height - 10.0,
+                if(it != divisions - 1) offset else width - barWidths[it]
+                , 0.0)
         }
 
-        for (i in 0 until bars.size) {
-            val curr = bars[i]
-            if (i - 1 > 0) {
-                curr.offset = bars[i - 1].width * 2
-                curr.updateBar()
-                println("${curr.width}")
-            }
-            box.children.add(curr.shape)
+        bars.iterator().forEach {
+            barPane.children.add(it.shape)
         }
 
+        root.children.add(barPane)
     }
 
-    inner class Bar {
-        var width: Double = 50.0
-        var height: Double = 0.0
-        var offset: Double = 0.0
-        var shape = Rectangle()
+    inner class Bar(width: Double = 10.0, height: Double = 10.0, startX: Double = 0.0, startY: Double) {
+        var shape: Rectangle = Rectangle()
+        var changing = false
+        var originalWidth = 0.0
+        var targetWidth = 0.0
 
-        fun updateBar() {
+        val changeSpeed = 1.0
+
+        init {
             shape.width = width
-            shape.x = offset
-            shape.y = height
-            shape.fill = Color.ALICEBLUE
-            shape.toFront()
-
+            shape.height = height
+            shape.x = startX
+            shape.y = startY
+            originalWidth = shape.width
             println("Width: $width, X: ${shape.x}, Y:${shape.y}")
+        }
+
+        fun gotoWidth(target : Double){
+            changing = true
+            targetWidth = target
+        }
+
+        fun updateBar(){
+            val difference = Math.abs(shape.width - targetWidth)
+            if(difference >= 1.0){
+
+            }
+            else{
+
+            }
+
         }
     }
 

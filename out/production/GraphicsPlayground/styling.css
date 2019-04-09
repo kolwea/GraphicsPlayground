@@ -33,3 +33,11 @@
     -fx-background-color: brown;
 
 }
+
+.BarCodeViz{
+    -fx-background-color: lightgrey;
+}
+
+.BarBox{
+    -fx-background-color: red;
+}

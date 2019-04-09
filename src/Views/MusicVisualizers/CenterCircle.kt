@@ -19,7 +19,6 @@ class CenterCircle : Visualizer {
     init {
         val window = Toolkit.getDefaultToolkit().screenSize
         root.styleClass.add("CenterCircle")
-//        root.setMinSize(400.0, 400.0)
         root.setMaxSize(window.getWidth(), window.getHeight())
     }
 
@@ -59,8 +58,8 @@ class CenterCircle : Visualizer {
                 minSize = circleRadiusSpacing
 
                 val window = Toolkit.getDefaultToolkit().screenSize
-                centerX = window.width.toDouble() / numBands!! * it
-                centerY = window.height.toDouble() / numBands!! * it
+                centerX = root.width / numBands!! * it
+                centerY = root.height / numBands!! * it
             }
         }
 

@@ -1,5 +1,7 @@
 .main{
     -fx-background-color: aliceblue;
+    -fx-border-width: 2.0;
+    -fx-border-color: red;
 }
 
 .main-button{

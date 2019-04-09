@@ -25,6 +25,7 @@ class MusicViz : GraphicsView {
 
     init {
         root.styleClass.add(styleClass)
+        root.children.add(visualizer.root)
     }
 
     override fun onOpen() {
@@ -65,8 +66,6 @@ class MusicViz : GraphicsView {
 
     private fun onReady() {
         visualizer.start(player.audioSpectrumNumBands)
-        root.children.clear()
-        root.children.add(visualizer.root)
     }
 
     private fun onEnd() {

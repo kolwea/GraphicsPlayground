@@ -29,6 +29,7 @@ class MusicViz : GraphicsView {
 
     override val label: String = "Music Visualizer"
     override var root: Pane = Pane()
+    override val styleClass: String = "MusicViz"
 
     lateinit var media: Media
     lateinit var player: MediaPlayer
@@ -40,7 +41,7 @@ class MusicViz : GraphicsView {
     val updateinterval = 0.01
 
     init {
-        root.styleClass.add("MusicViz")
+        root.styleClass.add(styleClass)
     }
 
     override fun onOpen() {

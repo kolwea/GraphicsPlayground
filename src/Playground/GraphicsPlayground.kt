@@ -52,10 +52,6 @@ class GraphicsPlayground : Application() {
         buttonBar.toFront()
     }
 
-    private fun setupFunctionality(){
-
-    }
-
     inner class ViewButton(text: String?): Button(text) {
         init {
             this.text = text

@@ -44,6 +44,7 @@ class ViewController() {
         override fun willOpen() {
         }
 
+        override val styleClass: String = "InitView"
         override val label: String = "Nunca"
         override var root: Pane = Pane()
 

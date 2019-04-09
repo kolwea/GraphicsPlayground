@@ -9,14 +9,18 @@ import java.awt.Toolkit
 class CenterCircle : Visualizer {
 
     override val name: String = "Center Circle"
-    override var root: Pane = Pane()
+    override var root: Pane = AnchorPane()
     var numBands: Int? = null
     lateinit var circles: Array<AudioCircle>
-    val circleGrowFactor = 50.0
+
+    private val minMagnitudeThreshold = 5.0
+    private val circleRadiusSpacing = 5.0
 
     init {
+        val window = Toolkit.getDefaultToolkit().screenSize
         root.styleClass.add("CenterCircle")
-        root.setPrefSize(400.0, 400.0)
+//        root.setMinSize(400.0, 400.0)
+        root.setMaxSize(window.getWidth(), window.getHeight())
     }
 
 
@@ -34,11 +38,10 @@ class CenterCircle : Visualizer {
             a = false
         }
 
-        for (i in 0 until phases!!.size) {
-            circles[i].apply {
-                radius = this.originalRadius + (magnitudes!![i].toDouble() + 60.0)
-//                moveCircle(this)
-            }
+        for (i in 0 until magnitudes!!.size) {
+            if (-magnitudes[i] >= minMagnitudeThreshold)
+                circles[i].update(magnitudes[i].toDouble())
+//            moveCircle(circles[i])
         }
     }
 
@@ -46,29 +49,29 @@ class CenterCircle : Visualizer {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    private fun map(value: Double, inMin: Double, inMax: Double, outMin: Double, outMax: Double): Double {
-        return outMin + (outMax - outMin) / (inMax - inMin) * (value - inMin)
-    }
-
     private fun setupCircles() {
         circles = Array(numBands!!) {
             AudioCircle().apply {
-                originalRadius = 30.0
-                radius = originalRadius
                 fill = Color.hsb(255.0 / numBands!! * it, 1.0, 1.0, 0.03)
                 strokeWidth = 2.0
                 stroke = Color.BLACK
-                centerX = Math.random() * Toolkit.getDefaultToolkit().screenSize.width
-                centerY = Math.random() * Toolkit.getDefaultToolkit().screenSize.height
-                println(it)
+//                centerX = Math.random() * Toolkit.getDefaultToolkit().screenSize.width
+//                centerY = Math.random() * Toolkit.getDefaultToolkit().screenSize.height
+                minSize = circleRadiusSpacing
+
+                val window = Toolkit.getDefaultToolkit().screenSize
+                centerX =  window.width.toDouble()/ numBands!! * it
+                centerY = window.height.toDouble()/numBands!! * it
             }
         }
 
-        for (i in 0 until circles.size) {
-            if (i + 1 < circles.size - 1) {
-                circles[i].nextRadius = circles[i + 1].originalRadius
-            }
+        for (i in circles.size - 1 downTo 0) {
+            circles[i].toFront()
         }
+    }
+
+    private fun map(value: Double, inMin: Double, inMax: Double, outMin: Double, outMax: Double): Double {
+        return outMin + (outMax - outMin) / (inMax - inMin) * (value - inMin)
     }
 
     private fun recursiveAdd(num: Int): Int {
@@ -80,7 +83,7 @@ class CenterCircle : Visualizer {
     }
 
     private fun moveCircle(circ: AudioCircle) {
-        var screenSize = Toolkit.getDefaultToolkit().screenSize
+        val screenSize = Toolkit.getDefaultToolkit().screenSize
         if ((circ.radius + circ.centerX >= screenSize.width) || (circ.centerX - circ.radius <= 0))
             circ.dirX *= -1.0
         if ((circ.radius + circ.centerY >= screenSize.height) || (circ.centerY - circ.radius <= 0))
@@ -93,10 +96,37 @@ class CenterCircle : Visualizer {
 
 
     inner class AudioCircle : Circle() {
-        var originalRadius = 0.0
-        var nextRadius = circleGrowFactor
+        private val changeValue = -0.5
+        var minSize = 20.0
+        var maxSize = minSize + 80.0 // The largest difference in magnitude
+        private val changeThreshold = 10.0
+
         var dirX = Math.random() * 1.0 + 1.0
         var dirY = Math.random() * 1.0 + 1.0
+
+        init {
+            radius = minSize
+        }
+
+        fun update(magnitude: Double) {
+            val normalizedMagnitude = magnitude + 100.0
+            val targetRadius = normalizedMagnitude + minSize
+
+            when {
+                targetRadius > maxSize -> {
+                    maxSize = targetRadius
+                    radius = targetRadius
+                }
+                targetRadius >= radius + changeThreshold ->
+                    radius = targetRadius
+                else -> {
+                    val mapDistFromOriginalRadius = map(radius, minSize, maxSize, 0.0, Math.PI / 2)
+                    val speed = Math.sin(mapDistFromOriginalRadius)
+                    radius += changeValue * speed
+                }
+            }
+        }
+
 
     }
 

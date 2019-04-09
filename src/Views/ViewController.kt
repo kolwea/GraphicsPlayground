@@ -1,7 +1,6 @@
 package Views
 
 import GraphicsPlayground.Views.FlowFieldViz
-import GraphicsPlayground.Views.GraphicsView
 import javafx.scene.layout.Pane
 
 class ViewController() {

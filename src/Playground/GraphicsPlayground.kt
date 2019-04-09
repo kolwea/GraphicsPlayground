@@ -17,15 +17,16 @@ import javax.lang.model.element.NestingKind
 
 class GraphicsPlayground : Application() {
 
-    val root = BorderPane()
+    private val root = BorderPane()
     var scene = Scene(root, width, height, true, SceneAntialiasing.DISABLED)
     var viewController = ViewController()
     lateinit var buttonBar: HBox
     lateinit var stage : Stage
+    private val window = Toolkit.getDefaultToolkit().screenSize!!
+
 
     override fun start(primaryStage: Stage?) {
         scene.stylesheets.addAll(stylesheet)
-        val window = Toolkit.getDefaultToolkit().screenSize
         root.setMaxSize(window.getWidth(),window.getHeight())
         root.styleClass.add("main")
         setupButtons()
@@ -50,8 +51,10 @@ class GraphicsPlayground : Application() {
         val targetView = viewController.goto(target)
         if (targetView!= null){
             root.center = targetView
+            targetView.setMaxSize(root.maxWidth,root.maxHeight)
             viewController.currentView.onOpen()
         }
+
         buttonBar.toFront()
     }
 

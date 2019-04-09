@@ -1,4 +1,4 @@
-package GraphicsPlayground.Views
+package Views
 
 import javafx.scene.layout.Pane
 

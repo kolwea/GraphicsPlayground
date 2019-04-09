@@ -1,6 +1,5 @@
 package Views
 
-import GraphicsPlayground.Views.GraphicsView
 import javafx.scene.layout.AnchorPane
 import javafx.scene.layout.Pane
 import javafx.scene.layout.StackPane

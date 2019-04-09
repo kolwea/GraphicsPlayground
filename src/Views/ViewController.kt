@@ -42,7 +42,6 @@ class ViewController() {
     }
 
     inner class initView : GraphicsView {
-        override val styleClass: String = "initviz"
 
         override fun willOpen() {
         }

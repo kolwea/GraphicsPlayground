@@ -1,4 +1,4 @@
-package Views.MusicVisualizers
+package Views.Resources.Interfaces
 
 import javafx.scene.layout.Pane
 import javafx.scene.media.AudioSpectrumListener

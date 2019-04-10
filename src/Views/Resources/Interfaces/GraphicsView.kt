@@ -1,4 +1,4 @@
-package Views
+package Views.Resources.Interfaces
 
 import javafx.scene.layout.Pane
 

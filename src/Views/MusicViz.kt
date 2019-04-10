@@ -24,8 +24,7 @@ class MusicViz : GraphicsView {
     val audioThreshold = -100
 
     init {
-        root.styleClass.add(styleClass)
-        root.children.add(visualizer.root)
+        root = visualizer.root
     }
 
     override fun onOpen() {

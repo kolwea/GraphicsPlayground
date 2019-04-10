@@ -1,7 +1,12 @@
-.main{
+.GraphicsPlaygroundView{
     -fx-background-color: aliceblue;
     -fx-border-width: 2.0;
     -fx-border-color: red;
+}
+
+.SceneView{
+    -fx-border-width:5.0;
+    -fx-border-color:pink;
 }
 
 .main-button{
@@ -19,7 +24,7 @@
 }
 
 .MusicViz{
-    -fx-background-color: white;
+    -fx-background-color: brown;
 }
 
 .CenterCircle{
@@ -46,4 +51,16 @@
 
 .BarBox{
     -fx-background-color: red;
+}
+
+.ControlView{
+    -fx-background-color: brown;
+    -fx-border-width: 2.0;
+    -fx-border-color: red;
+}
+
+.ContentView{
+    -fx-background-color:grey;
+        -fx-border-width: 2.0;
+        -fx-border-color: red;
 }

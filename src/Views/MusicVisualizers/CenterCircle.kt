@@ -1,6 +1,5 @@
 package Views.MusicVisualizers
 
-import javafx.scene.layout.AnchorPane
 import javafx.scene.layout.Pane
 import javafx.scene.paint.Color
 import javafx.scene.shape.Circle
@@ -9,17 +8,17 @@ import java.awt.Toolkit
 class CenterCircle : Visualizer {
 
     override val name: String = "Center Circle"
-    override var root: Pane = AnchorPane()
+    override var root: Pane = Pane()
     var numBands: Int? = null
     lateinit var circles: Array<AudioCircle>
 
     private val minMagnitudeThreshold = 5.0
-    private val circleRadiusSpacing = 5.0
+    private val circleRadiusSpacing = 1.0
 
     init {
         val window = Toolkit.getDefaultToolkit().screenSize
         root.styleClass.add("CenterCircle")
-        root.setMaxSize(window.getWidth(), window.getHeight())
+        root.setPrefSize(300.0,300.0)
     }
 
 
@@ -54,10 +53,7 @@ class CenterCircle : Visualizer {
                 fill = Color.hsb(255.0 / numBands!! * it, 1.0, 1.0, 0.03)
                 strokeWidth = 2.0
                 stroke = Color.BLACK
-
                 minSize = circleRadiusSpacing
-
-                val window = Toolkit.getDefaultToolkit().screenSize
                 centerX = root.width / numBands!! * it
                 centerY = root.height / numBands!! * it
             }

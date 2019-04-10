@@ -1,6 +1,7 @@
 package Views
 
-import Views.MusicVisualizers.CenterCircle
+import Views.Resources.Interfaces.GraphicsView
+import Views.Resources.Visualizers.CenterCircle
 import javafx.scene.layout.Pane
 import javafx.scene.layout.StackPane
 import javafx.scene.media.Media
@@ -43,7 +44,7 @@ class MusicViz : GraphicsView {
 
     fun openMedia() {
         val file =
-            File("/Users/kolbe/IdeaProjects/GraphicsPlayground/src/Views/Copy of Liberty City House (Updatedd).wav")
+            File("/Users/kolbe/IdeaProjects/GraphicsPlayground/src/Views/Resources/Copy of Liberty City House (Updatedd).wav")
         media = Media((file.toURI().toString()))
         setupPlayer()
     }

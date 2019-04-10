@@ -1,5 +1,6 @@
-package Views.MusicVisualizers
+package Views.Resources.Visualizers
 
+import Views.Resources.Interfaces.Visualizer
 import javafx.scene.layout.Pane
 import javafx.scene.paint.Color
 import javafx.scene.shape.Circle

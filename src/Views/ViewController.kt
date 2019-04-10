@@ -1,6 +1,7 @@
 package Views
 
 import GraphicsPlayground.Views.FlowFieldViz
+import Views.Resources.Interfaces.GraphicsView
 import contentViewPortion
 import controlViewPortion
 import javafx.scene.layout.AnchorPane

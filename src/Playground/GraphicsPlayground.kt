@@ -7,9 +7,8 @@ import javafx.scene.SceneAntialiasing
 import javafx.scene.control.Button
 import javafx.scene.layout.AnchorPane
 import javafx.scene.layout.HBox
-import javafx.scene.layout.Pane
 import javafx.stage.Stage
-import java.awt.Toolkit
+
 
 
 class GraphicsPlayground : Application() {

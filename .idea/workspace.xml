@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a5146e-0774-4e31-bab1-201902e248b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphicsPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsPlayground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsPlayground/META-INF/GraphicsPlayground.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsPlayground/META-INF/GraphicsPlayground.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/MusicViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/MusicViz.kt" afterDir="false" />
+
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,117 +18,6 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/GraphicsPlayground$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1554529710583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/MusicViz.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
-              <folding>
-                <element signature="n#!!block;n#onOpen#0;n#!!block;n#MusicViz#0" />
-                <element signature="n#!!block;n#onClose#0;n#!!block;n#MusicViz#0" />
-                <element signature="n#!!block;n#willOpen#0;n#!!block;n#MusicViz#0" />
-                <element signature="n#!!block;n#setupPlayer#0;n#!!block;n#MusicViz#0" />
-                <element signature="n#!!block;n#onReady#0;n#!!block;n#MusicViz#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/Resources/Visualizers/CenterCircle.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-              <folding>
-                <element signature="e#32#152#0" expanded="true" />
-                <element signature="n#!!block;n#start#0;n#!!block;n#CenterCircle#0" />
-                <element signature="n#!!block;n#spectrumDataUpdate#0;n#!!block;n#CenterCircle#0" />
-                <element signature="n#!!block;n#end#0;n#!!block;n#CenterCircle#0" />
-                <element signature="n#!!block;n#map#0;n#!!block;n#CenterCircle#0" />
-                <element signature="n#!!block;n#AudioCircle#0;n#!!block;n#CenterCircle#0" />
-                <element signature="n#!!block;n#update#0;n#!!block;n#AudioCircle#0;n#!!block;n#CenterCircle#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resources/ParticleSystem.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styling.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Playground/init.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#20#336#0" expanded="true" />
-                <element signature="n#!!block;n#start#0;n#!!block;n#GraphicsPlayground#0" />
-                <element signature="n#!!block;n#setupScene#0;n#!!block;n#GraphicsPlayground#0" />
-                <element signature="n#!!block;n#setupButtons#0;n#!!block;n#GraphicsPlayground#0" />
-                <element signature="n#!!block;n#setupStage#0;n#!!block;n#GraphicsPlayground#0" />
-                <element signature="n#!!block;n#goto#0;n#!!block;n#GraphicsPlayground#0" />
-                <element signature="n#!!block;n#updateBoundaries#0;n#!!block;n#GraphicsPlayground#0" />
-                <element signature="n#!!block;n#updateBoundaries#1;n#!!block;n#GraphicsPlayground#0" />
-                <element signature="n#!!block;n#ViewButton#0;n#!!block;n#GraphicsPlayground#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/init.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Views/ViewController.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#467#566#0" />
-                <element signature="e#626#1420#0" />
-                <element signature="n#!!block;n#goto#0;n#!!block;n#ViewController#0" />
-                <element signature="n#!!block;n#getViewLabels#0;n#!!block;n#ViewController#0" />
-                <element signature="n#!!block;n#setMaximumSize#0;n#!!block;n#ViewController#0" />
-                <element signature="n#!!block;n#initView#0;n#!!block;n#ViewController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,96 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/init.kt" />
-        <option value="$PROJECT_DIR$/src/Resources/Particle.java" />
-        <option value="$PROJECT_DIR$/main.kt" />
-        <option value="$PROJECT_DIR$/src/GraphicsPlayground.kt" />
-        <option value="$PROJECT_DIR$/src/main.kt" />
-        <option value="$PROJECT_DIR$/src/Playground/init.kt" />
-        <option value="$PROJECT_DIR$/src/Resources/Particle.kt" />
-        <option value="$PROJECT_DIR$/src/Resources/init.kt" />
-        <option value="$PROJECT_DIR$/src/Resources/ParticleSystem.kt" />
-        <option value="$PROJECT_DIR$/src/Views/FlowField.kt" />
-        <option value="$PROJECT_DIR$/src/Views/MusicVisualizer.kt" />
-        <option value="$PROJECT_DIR$/src/Views/BarCode.kt" />
-        <option value="/Volumes/Kolbe's Drive/TOTHEFUTURE/NetBeansProjects/AudioViz/src/audioviz/PlayerController.java" />
-        <option value="$PROJECT_DIR$/src/Views/Music/MusicViz.kt" />
-        <option value="/Volumes/Kolbe's Drive/TOTHEFUTURE/NetBeansProjects/AudioViz/src/audioviz/Kswkw4CoolVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/Views/MusicVisualizers/Visualizer.kt" />
-        <option value="$PROJECT_DIR$/src/Views/BarCodeViz.kt" />
-        <option value="$PROJECT_DIR$/src/Views/BingeViz.kt" />
-        <option value="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" />
-        <option value="$PROJECT_DIR$/src/Views/GraphicsView.kt" />
-        <option value="$PROJECT_DIR$/src/Views/MusicVisualizers/CenterCircle.kt" />
-        <option value="$PROJECT_DIR$/src/styling.css" />
-        <option value="$PROJECT_DIR$/src/Views/init.kt" />
-        <option value="$PROJECT_DIR$/src/Views/ViewController.kt" />
-        <option value="$PROJECT_DIR$/src/Views/MusicViz.kt" />
-        <option value="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1mlNNgMQW8J2sN5mhOe7kRF0EME" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GraphicsPlayground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphicsPlayground" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphicsPlayground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphicsPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphicsPlayground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphicsPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Playground" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphicsPlayground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphicsPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphicsPlayground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphicsPlayground" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554918692008" />
-    <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554824410287" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-12.0.2/lib/javafx.web.jar!/" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -253,18 +69,6 @@
       <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="$PROJECT_DIR$/src/Playground" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -312,512 +116,59 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27038628" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3939759" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297568" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297568" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27083334" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39444444" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297568" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297568" />
-    </layout-to-restore>
-  </component>
+
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="521" y="198" key="#Notifications" timestamp="1610064284373">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="521" y="198" key="#Notifications/0.0.1858.1080/1920.0.1920.1040@0.0.1858.1080" timestamp="1610064284373" />
+    <state x="521" y="198" key="#Project_Structure" timestamp="1610064310942">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="521" y="198" key="#Project_Structure/0.0.1858.1080/1920.0.1920.1040@0.0.1858.1080" timestamp="1610064310942" />
+    <state x="705" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610066564128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="705" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066564128" />
+    <state x="2879" y="288" key="FileChooserDialogImpl" timestamp="1610066422871">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="928" y="299" key="FileChooserDialogImpl/0.0.1858.1080/1920.0.1920.1040@0.0.1858.1080" timestamp="1610065775298" />
+    <state x="959" y="288" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066171415" />
+    <state x="2879" y="288" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610066422871" />
+    <state width="960" height="352" key="GridCell.Tab.0.bottom" timestamp="1610066683330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066683330" />
+    <state width="960" height="352" key="GridCell.Tab.0.center" timestamp="1610066683330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="352" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066683330" />
+    <state width="960" height="352" key="GridCell.Tab.0.left" timestamp="1610066683329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="352" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066683329" />
+    <state width="960" height="352" key="GridCell.Tab.0.right" timestamp="1610066683330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="352" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066683330" />
+    <state x="2343" y="110" key="SettingsEditor" timestamp="1610066431761">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="409" y="114" key="SettingsEditor/0.0.1858.1080/1920.0.1920.1040@0.0.1858.1080" timestamp="1610065779200" />
+    <state x="423" y="110" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066218888" />
+    <state x="2343" y="110" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610066431761" />
+    <state x="646" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1610066035399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="364" key="com.intellij.ide.util.TipDialog/0.0.1858.1080/1920.0.1920.1040@0.0.1858.1080" timestamp="1610065737265" />
+    <state x="646" y="351" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066035399" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="true" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/duck.java" />
-    <entry file="file://$PROJECT_DIR$/src/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/ResourceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphicsPlayground.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/bin/Lesson07_Music.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-626">
-          <folding>
-            <element signature="e#0#3490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/com/sun/javafx/tk/quantum/GlassViewEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="431" selection-start-line="431" selection-end-line="431" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/bin/Lesson01_AudioContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/bin/Lesson02_EnvelopeAndWavePlayer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/bin/Lesson04_SamplePlayer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/bin/Lesson03_FMSynthesis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#941#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson08_Granulation.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson01_AudioContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson05_Clock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson02_EnvelopeAndWavePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/beads/library/beads.jar!/net/beadsproject/beads/analysis/FeatureManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson03_FMSynthesis.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson04_SamplePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson06_Trigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-933">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#2477#2611#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/tutorial/Lesson07_Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/beads/library/beads.jar!/net/beadsproject/beads/analysis/featureextractors/FFT.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#6114#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/src/beads_main/net/beadsproject/beads/analysis/Analyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#12625#0" expanded="true" />
-            <element signature="class#AnalysisSettings#0;class#Analyzer#0" />
-            <element signature="initializer##0;class#Analyzer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/beads/src/beads_main/net/beadsproject/beads/analysis/featureextractors/FFT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#6550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/Particle.kt" />
-    <entry file="file://$PROJECT_DIR$/src/Resources/init.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/scene/media/Media.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="384" selection-start-line="384" selection-end-line="384" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/Kolbe's Drive/TOTHEFUTURE/NetBeansProjects/AudioViz/src/audioviz/AudioViz.java" />
-    <entry file="file:///Volumes/Kolbe's Drive/TOTHEFUTURE/NetBeansProjects/AudioViz/src/audioviz/PlayerController.java" />
-    <entry file="file:///Volumes/Kolbe's Drive/TOTHEFUTURE/NetBeansProjects/AudioViz/src/audioviz/Visualizer.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/com/sun/javafx/collections/VetoableListDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="453" selection-start-line="453" selection-end-line="453" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/scene/paint/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="247" column="24" selection-start-line="247" selection-start-column="24" selection-end-line="247" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/scene/media/MediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1899">
-          <caret line="2150" column="22" selection-start-line="2150" selection-start-column="22" selection-end-line="2150" selection-end-column="22" />
-          <folding>
-            <element signature="e#79375#79376#0" expanded="true" />
-            <element signature="e#79438#79439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/Kolbe's Drive/TOTHEFUTURE/NetBeansProjects/AudioViz/src/audioviz/Kswkw4CoolVisualizer.java" />
-    <entry file="file://$PROJECT_DIR$/src/Views/Resources/Interfaces/Visualizer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#32#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/BingeViz.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
-          <folding>
-            <element signature="e#806#877#0" />
-            <element signature="n#!!block;n#willOpen#0;n#!!block;n#BingeViz#0" />
-            <element signature="n#!!block;n#onOpen#0;n#!!block;n#BingeViz#0" />
-            <element signature="n#!!block;n#onClose#0;n#!!block;n#BingeViz#0" />
-            <element signature="n#!!block;n#setupTimeline#0;n#!!block;n#BingeViz#0" />
-            <element signature="n#!!block;n#BubbleGen#0;n#!!block;n#BingeViz#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/FlowFieldViz.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/BarCodeViz.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding>
-            <element signature="n#!!block;n#setupView#0;n#!!block;n#BarCodeViz#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Resources/Interfaces/GraphicsView.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styling.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Resources/Visualizers/CenterCircle.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-          <folding>
-            <element signature="e#32#152#0" expanded="true" />
-            <element signature="n#!!block;n#start#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#spectrumDataUpdate#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#end#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#map#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#AudioCircle#0;n#!!block;n#CenterCircle#0" />
-            <element signature="n#!!block;n#update#0;n#!!block;n#AudioCircle#0;n#!!block;n#CenterCircle#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/ParticleSystem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/MusicViz.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
-          <folding>
-            <element signature="n#!!block;n#onOpen#0;n#!!block;n#MusicViz#0" />
-            <element signature="n#!!block;n#onClose#0;n#!!block;n#MusicViz#0" />
-            <element signature="n#!!block;n#willOpen#0;n#!!block;n#MusicViz#0" />
-            <element signature="n#!!block;n#setupPlayer#0;n#!!block;n#MusicViz#0" />
-            <element signature="n#!!block;n#onReady#0;n#!!block;n#MusicViz#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/init.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Playground/init.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#20#336#0" expanded="true" />
-            <element signature="n#!!block;n#start#0;n#!!block;n#GraphicsPlayground#0" />
-            <element signature="n#!!block;n#setupScene#0;n#!!block;n#GraphicsPlayground#0" />
-            <element signature="n#!!block;n#setupButtons#0;n#!!block;n#GraphicsPlayground#0" />
-            <element signature="n#!!block;n#setupStage#0;n#!!block;n#GraphicsPlayground#0" />
-            <element signature="n#!!block;n#goto#0;n#!!block;n#GraphicsPlayground#0" />
-            <element signature="n#!!block;n#updateBoundaries#0;n#!!block;n#GraphicsPlayground#0" />
-            <element signature="n#!!block;n#updateBoundaries#1;n#!!block;n#GraphicsPlayground#0" />
-            <element signature="n#!!block;n#ViewButton#0;n#!!block;n#GraphicsPlayground#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/ViewController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#467#566#0" />
-            <element signature="e#626#1420#0" />
-            <element signature="n#!!block;n#goto#0;n#!!block;n#ViewController#0" />
-            <element signature="n#!!block;n#getViewLabels#0;n#!!block;n#ViewController#0" />
-            <element signature="n#!!block;n#setMaximumSize#0;n#!!block;n#ViewController#0" />
-            <element signature="n#!!block;n#initView#0;n#!!block;n#ViewController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>GraphicsPlayground</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>KotlinJavaRuntime</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/MusicViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/MusicViz.kt" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,7 @@
     <findStrings>
       <find>process</find>
       <find>circ.</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -48,6 +50,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554824410287" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-12.0.2/lib/javafx.web.jar!/" />
     <property name="project.structure.last.edited" value="Global Libraries" />
+
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -55,14 +58,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Views.Resources.Interfaces" />
+      <recent name="Views.Resources.Visualizers" />
       <recent name="Views.Music" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Views/Resources" />
       <recent name="$PROJECT_DIR$/src/Views/Music" />
       <recent name="$PROJECT_DIR$/src/Views" />
       <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="$PROJECT_DIR$/src/Playground" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,6 +116,7 @@
     </task>
     <servers />
   </component>
+
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>

@@ -1,6 +1,6 @@
 package Views
 
-import GraphicsPlayground.Views.GraphicsView
+import Views.Resources.Interfaces.GraphicsView
 import javafx.scene.layout.AnchorPane
 import javafx.scene.layout.Pane
 import javafx.scene.layout.StackPane
@@ -9,7 +9,8 @@ import kotlin.random.Random
 
 class BarCodeViz : GraphicsView {
     override val styleClass: String = "BarCodeViz"
-    override val label: String = "BarCode"
+    override val label: String = "Barcode"
+
     override var root: Pane = StackPane()
 
     private val barPane = AnchorPane()

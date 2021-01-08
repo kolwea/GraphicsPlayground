@@ -5,9 +5,9 @@ import javafx.scene.shape.Line
 import java.awt.Toolkit
 
 class FlowFieldViz : GraphicsView {
+    override val styleClass: String = "FlowField"
     override val label: String = "FlowFieldViz"
     override var root: Pane = Pane()
-    override val styleClass = "FlowField"
 
     val troubleShooting = true
 

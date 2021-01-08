@@ -2,6 +2,7 @@ package Views
 
 import GraphicsPlayground.Views.GraphicsView
 import Views.MusicVisualizers.CenterCircle
+
 import javafx.scene.layout.Pane
 import javafx.scene.media.Media
 import javafx.scene.media.MediaPlayer
@@ -11,7 +12,7 @@ import java.io.File
 class MusicViz : GraphicsView {
     override val styleClass: String = "MusicViz"
     override val label: String = "Music Visualizer"
-    override var root: Pane = Pane()
+    override var root: Pane = StackPane()
 
     lateinit var media: Media
     lateinit var player: MediaPlayer
@@ -19,18 +20,20 @@ class MusicViz : GraphicsView {
 
     var visualizer = CenterCircle()
 
-    val spectrumBands = 10
+    val spectrumBands:Int? = null
     val updateinterval = 0.01
+    val audioThreshold = -100
 
     init {
-        root.styleClass.add("MusicViz")
+        root = visualizer.root
     }
 
     override fun onOpen() {
+
     }
 
     override fun onClose() {
-
+        player.stop()
     }
 
     override fun willOpen() {
@@ -42,6 +45,7 @@ class MusicViz : GraphicsView {
     fun openMedia() {
         val file =
             File("D:/Users/Kolbe/Desktop/why piano.wav")
+
         media = Media((file.toURI().toString()))
         setupPlayer()
     }
@@ -54,15 +58,15 @@ class MusicViz : GraphicsView {
         player.setOnReady { onReady() }
         player.setOnEndOfMedia { onEnd() }
         player.audioSpectrumInterval = updateinterval
-        player.audioSpectrumNumBands = spectrumBands
+        if(spectrumBands!=null)
+            player.audioSpectrumNumBands = spectrumBands
         player.audioSpectrumListener = visualizer
         player.isAutoPlay = true
+        player.audioSpectrumThreshold = audioThreshold
     }
 
     private fun onReady() {
-        visualizer.start(spectrumBands)
-        root.children.clear()
-        root.children.add(visualizer.root)
+        visualizer.start(player.audioSpectrumNumBands)
     }
 
     private fun onEnd() {

@@ -1,11 +1,12 @@
-package GraphicsPlayground.Views
+package Views.Resources.Interfaces
 
 import javafx.scene.layout.Pane
 
 interface GraphicsView {
     val label : String
     var root:Pane
-    val styleClass : String
+    val styleClass:String
+
 
     fun willOpen()
     fun onOpen()

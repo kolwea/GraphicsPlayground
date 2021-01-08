@@ -1,2 +1,4 @@
-val width = 500.0
-val height = 500.0
+const val controlViewPortion = 0.25
+const val contentViewPortion = 0.75
+
+const val viewPadding = 10.0

@@ -1,5 +1,6 @@
 package GraphicsPlayground.Views
 
+import Views.Resources.Interfaces.GraphicsView
 import javafx.scene.layout.Pane
 import javafx.scene.shape.Line
 import java.awt.Toolkit

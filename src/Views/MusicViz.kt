@@ -1,9 +1,11 @@
 package Views
 
-import GraphicsPlayground.Views.GraphicsView
-import Views.MusicVisualizers.CenterCircle
+
+import Views.Resources.Interfaces.GraphicsView
+import Views.Resources.Visualizers.CenterCircle
 
 import javafx.scene.layout.Pane
+import javafx.scene.layout.StackPane
 import javafx.scene.media.Media
 import javafx.scene.media.MediaPlayer
 import javafx.scene.media.MediaView

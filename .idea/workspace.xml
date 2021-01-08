@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a5146e-0774-4e31-bab1-201902e248b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphicsPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicsPlayground.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphicsPlayground/META-INF/GraphicsPlayground.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsPlayground/META-INF/GraphicsPlayground.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground/GraphicsPlayground.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/FlowFieldViz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/MusicViz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/MusicViz.kt" afterDir="false" />
-
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,6 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554824410287" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-12.0.2/lib/javafx.web.jar!/" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -116,7 +110,6 @@
     </task>
     <servers />
   </component>
-
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
@@ -139,22 +132,26 @@
     <state x="928" y="299" key="FileChooserDialogImpl/0.0.1858.1080/1920.0.1920.1040@0.0.1858.1080" timestamp="1610065775298" />
     <state x="959" y="288" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066171415" />
     <state x="2879" y="288" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610066422871" />
-    <state width="960" height="352" key="GridCell.Tab.0.bottom" timestamp="1610066683330">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="960" height="352" key="GridCell.Tab.0.bottom" timestamp="1610067345736">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="960" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066683330" />
-    <state width="960" height="352" key="GridCell.Tab.0.center" timestamp="1610066683330">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="960" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610067345736" />
+    <state width="960" height="352" key="GridCell.Tab.0.center" timestamp="1610067345736">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="960" height="352" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066683330" />
-    <state width="960" height="352" key="GridCell.Tab.0.left" timestamp="1610066683329">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="960" height="352" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610067345736" />
+    <state width="960" height="352" key="GridCell.Tab.0.left" timestamp="1610067345736">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="960" height="352" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066683329" />
-    <state width="960" height="352" key="GridCell.Tab.0.right" timestamp="1610066683330">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="960" height="352" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610067345736" />
+    <state width="960" height="352" key="GridCell.Tab.0.right" timestamp="1610067345736">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="960" height="352" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610066683330" />
+    <state width="960" height="352" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610067345736" />
     <state x="2343" y="110" key="SettingsEditor" timestamp="1610066431761">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

@@ -8,11 +8,7 @@ import javafx.scene.SceneAntialiasing
 import javafx.scene.control.Button
 import javafx.scene.layout.BorderPane
 import javafx.scene.layout.HBox
-import javafx.scene.layout.Pane
-import javafx.scene.shape.Rectangle
 import javafx.stage.Stage
-import sun.tools.jstat.Alignment
-import javax.lang.model.element.NestingKind
 
 class GraphicsPlayground : Application() {
 

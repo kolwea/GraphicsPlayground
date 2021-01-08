@@ -18,5 +18,6 @@
         <jarDirectory url="file://$USER_HOME$/Downloads/beads/library" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="javafx-swt" level="application" />
   </component>
 </module>

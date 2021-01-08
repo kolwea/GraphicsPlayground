@@ -1,10 +1,8 @@
 package GraphicsPlayground.Views
 
-import com.sun.org.apache.xml.internal.security.utils.JavaUtils
 import javafx.scene.layout.Pane
 import javafx.scene.shape.Line
 import java.awt.Toolkit
-import javax.tools.Tool
 
 class FlowFieldViz : GraphicsView {
     override val label: String = "FlowFieldViz"
